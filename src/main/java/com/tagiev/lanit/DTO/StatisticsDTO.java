@@ -40,4 +40,5 @@ public class StatisticsDTO {
     public void setUniqueVendorCount(long uniqueVendorCount) {
         this.uniqueVendorCount = uniqueVendorCount;
     }
+
 }

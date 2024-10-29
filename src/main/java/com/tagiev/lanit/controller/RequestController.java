@@ -21,9 +21,13 @@ import java.util.Optional;
 
 @RestController
 public class RequestController {
+
     private final CarService carService;
+
     private final PersonService personService;
+
     private final PersonWithCarService personWithCarService;
+
     private final StatisticsService statisticsService;
 
     @Autowired

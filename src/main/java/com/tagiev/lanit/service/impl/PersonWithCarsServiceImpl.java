@@ -43,7 +43,6 @@ public class PersonWithCarsServiceImpl implements PersonWithCarService {
         } catch (NoSuchElementException e) {
             return Optional.empty();
         }
-
     }
 
 }

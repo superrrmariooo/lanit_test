@@ -34,4 +34,5 @@ public class CarServiceImpl implements CarService {
     public boolean existsWithId(long id) {
         return carRepository.existsById(id);
     }
+
 }
